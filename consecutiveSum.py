@@ -1,8 +1,8 @@
 arr=[80,-50,90,100]
 k=int(input("Enter K value"))
-
+N=len(arr)
 def consecutiveSum(arr,k,N):
-    N=len(arr)
+    
     max_sum=0
     for i in range(N-k+1):
         sum=0
